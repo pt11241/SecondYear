@@ -16,13 +16,13 @@ public:
     }
     void AppendElem(T elem){
         if (_cnt == _size){
-            T* array = new T[_size * _size];
+            T* array = new T[_size + 100];
             for (size_t i = 0; i < _size; i++){
                 array[i] = _array[i];
             }
             delete [] _array;
             _array = array;
-            _size = _size * _size; 
+            _size = _size + 100; 
         }
         _array[_cnt++] = elem;
         
