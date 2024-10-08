@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+C:/gitreg/SecondYear/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

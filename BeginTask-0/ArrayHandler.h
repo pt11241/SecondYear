@@ -1,3 +1,4 @@
+#include <iostream>
 
 template<typename T>
 class ArrayHandler {
@@ -16,13 +17,13 @@ public:
     }
     void AppendElem(T elem){
         if (_cnt == _size){
-            T* array = new T[_size + 100];
+            T* array = new T[_size * _size];
             for (size_t i = 0; i < _size; i++){
                 array[i] = _array[i];
             }
             delete [] _array;
             _array = array;
-            _size = _size + 100; 
+            _size = _size * _size; 
         }
         _array[_cnt++] = elem;
         
