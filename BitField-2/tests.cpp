@@ -21,9 +21,11 @@ TEST(TestGroupName, Subtest_3) {
 
     const size_t size = 4;
     BitField bf1(size), bf2(size), expBf(size);
+
     // bf1 = 0011
     bf1.SetBit(2);
     bf1.SetBit(3);
+    bf1.BitFieldPrint();
     // bf2 = 0101
     bf2.SetBit(1);
     bf2.SetBit(3);

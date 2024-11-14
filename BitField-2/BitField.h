@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdint.h>
 
+
 class BitField {
 private:
     size_t _sizeBit;
@@ -26,6 +27,7 @@ public:
     BitField operator^(const BitField& tmp);
     bool operator==(const BitField& tmp) const;
     BitField operator~();
+    void BitFieldPrint();
 
     ~BitField(){
 
