@@ -19,11 +19,11 @@ public:
     size_t GetLength() const;
     void SetBit(size_t n);
     void ClrBit(size_t n);
-    uint8_t GetBit(size_t n) const;
+    uint16_t GetBit(size_t n) const;
 
 
-    BitField operator|(const BitField& tmp);
-    BitField operator&(const BitField& tmp);
+    BitField operator|(const BitField& tmp)const ;
+    BitField operator&(const BitField& tmp)const;
     BitField operator^(const BitField& tmp);
     bool operator==(const BitField& tmp) const;
     BitField operator~();
